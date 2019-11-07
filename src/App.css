@@ -1,22 +1,53 @@
+*{
+margin: 0px;
+padding: 0px;
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #8cced6;
+  min-height: 100vh;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
-.App-link {
-  color: #09d3ac;
+.App-mainContainer{
+  height: 100%;
+}
+.container_players{
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.label_player{
+  margin-bottom: 20px;
+}
+.container_playerX{
+  display: flex;
+  flex-direction: column;
+} 
+.btn_play{
+  padding: 10px;
+  font-size: 16px;
+  width: 150px;
+}
+.input{
+  font-size: 16px;
+  height: 30px;
+}
+.input_wonPoint{
+  padding: 10px;
+  font-size: 16px;
+  width: 150px;
+}
+
+.btn_newGame{
+  padding: 10px;
+  font-size: 16px;
+  width: 150px;
+}
+.lislist-scorest{
+  list-style: none;
 }
